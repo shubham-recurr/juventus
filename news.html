@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA_Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+<style>
+.zoomimage{
+width:750px;
+height:350px;
+overflow:hidden;  
+text-align-center;
+}
+
+img{
+max-width:100%;
+max-height:100%;
+transition:.75s;
+}
+.zoomimage:hover img{
+transform: scale(1.2);
+}
+.col-4:hover .details{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s
+}
+ .details .content{
+   position: absolute;
+   top:50%;
+   transform: translate(-50%);
+   text-align: center;
+   padding: 15px;
+   color: #fff;
+ }
+ .detail .content h2{
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+   color:#ff0;
+ }
+</style>
+</head>           
+             
+  
+
+
+          
+<body> 
+    <nav style="height: 30px;" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a py-0 class="nav-link" href="https://www.juventus.com/en/contact.php">CONTACT US <span class="sr-only">(current)</span></a>
+                </li>
+              <li class="nav-item active">
+                  <a py-0 class="nav-link" href="https://www.juventus.com/en/club/investor-relations/">INVESTORS <span class="sr-only">(current)</span></a>
+                </li>
+              <li class="nav-item active">
+                  <a py-0 class="nav-link" href="https://www.juventus.com/en/club/partners/">PARTNERS <span class="sr-only">(current)</span></a>
+                </li>
+              <li class="nav-item active">
+                  <a py-0 class="nav-link" href="https://www.juventus.com/en/fans/official-fan-club/index.php">OFFICIAL FAN CLUB <span class="sr-only">(current)</span></a>
+                </li>
+          </ul>
+          <ul class="navbar-nav mr auto">
+              <li class="nav-item">
+                  <a py-0 class="nav-link" href="untitled-2.html">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a py-0 class="nav-link" href="untitled-1.html">Register</a>
+              </li>
+          </ul>
+        </div> 
+      </nav>
+      <div class="container">
+          <img src="aqw.png" class="mx-auto d-block" style="width:100%" height="110">
+      </div>
+    
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.juventus.com/en/">HOME <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="news.html" id="navbardrop" data-toggle="dropdown">
+                        NEWS
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="news.html">Latest News</a>
+                        <a class="dropdown-item" href="#">Juventus Women</a>
+                        <a class="dropdown-item" href="#">Galleries</a>
+                      </div>
+                    </li>
+                  
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="club.html" id="navbardrop" data-toggle="dropdown">
+                          CLUB
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="club.html">HISTORY</a>
+                          <a class="dropdown-item" href="#">MISSION</a>
+                          <a class="dropdown-item" href="#">ACADEMY</a>
+                        </div>
+                      </li>
+                     <li class="nav-item dropdown active">
+                         <a class="nav-link dropdown-toggle" href="fans.html" id="navbardrop" data-toggle="dropdown">
+                           FANS
+                         </a>
+                         <div class="dropdown-menu">
+                           <a class="dropdown-item" href="fans.html">Official JUVENTUS APP</a>
+                           <a class="dropdown-item" href="#">OFFICIAL FAN CLUB</a>
+                           <a class="dropdown-item" href="#">BLACK AND WHITE</a>
+                         </div>
+                       </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      ALLIANZ STADIUM & JUVENTUS MUSEUM
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">JUVENTUS MEUSIUM</a>
+                      <a class="dropdown-item" href="#">ALLIANZ AREANA</a>
+                      <a class="dropdown-item" href="#">JUVENTUS CITY</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown active">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    TICKETS
+                   </a>
+                   <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">BUY JUVE CARD</a>
+                     <a class="dropdown-item" href="#">RENEW JUVE CARD</a>
+                    </div>
+                  </li>  
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    SHOP
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">APPAREL</a>
+                    <a class="dropdown-item" href="#">TRAINING RANGE</a>
+                    <a class="dropdown-item" href="#">MATCH KIT</a>
+                   </div>
+                 </li>
+            </ul>
+          </div>
+        </nav>                         
+  <div class="wrapper">
+    <div class="row text-center padding">
+      <div class="col-12">
+        <h2>NEWS</h2>
+        <hr>
+      </div>
+
+     <div class="col-12 social padding">
+       <div class="row">
+       <div class="col-4">
+         <div class="zoomimage">
+          <a href="https://www.juventus.com/en/news/news/2019/here-at-jtc-saturday-morning-on-the-field.php"><img class="d-block img-fluid" src="batch1.jpg" width="100%%"></i></a>
+         </div>
+             <h2 class="text-align-center">Saturday morning on the feild</h2>
+       </div>
+       <div class="col-4">
+         <div class="zoomimage">
+          <a href="https://www.juventus.com/en/news/news/2019/eight-years-at-home.php"><img class="d-block img-fluid" src="batch8.jpg" width="100%" ></i></a>
+        </div>
+        <h2 class="text-align-center">Eight year at home</h2>
+       </div>
+       <div class="col-4">
+         <div class="zoomimage">
+          <a href="https://www.juventus.com/en/news/news/2019/running-towards-the-weekend.php"><img class="d-block img-fluid" src="batch3.jpg" width="100%"  ></i></a>
+        </div>
+        <h2 class="text-align-center">Running towards the weekend</h2>
+       </div>
+      </div>
+     </div>
+    </div>
+  </div>
+  <br>
+  <div class="wrapper">
+      <div class="row text-center padding">
+       <div class="col-12 social padding">
+         <div class="row">
+         <div class="col-4">
+           <div class="zoomimage">
+            <a href="https://www.juventus.com/en/news/galleries/2019/bianconere-prepare-for-barcelona.php"><img class="d-block img-fluid align-center" src="batch4.jpg" width="100%"></i></a>
+           </div>
+           <h2 class="text-align-center">Bianconere prepare for barcelona</h2>
+         </div>
+         <div class="col-4">
+           <div class="zoomimage">
+            <a href="https://www.juventus.com/en/news/news/2019/bianconeri-derbies-on-the-international-stage.php"><img class="d-block img-fluid" src="batch2.jpg" width="100%" ></i></a>
+          </div>
+          <h2 class="text-align-center">Bianconeri derbies on the international stage</h2>
+         </div>
+         <div class="col-4">
+           <div class="zoomimage">
+            <a href="https://www.juventus.com/en/news/videos/2019/welcome-danilo.php"><img class="d-block img-fluid" src="batch7.jpg" width="100%"  ></i></a>
+          </div>
+          <h2 class="text-align-center">Welcome Danilo</h2>
+         </div>
+        </div>
+       </div>
+      </div>
+    </div>
+
+
+    <br>
+ 
+  </div>
+  <div class="container-fluid padding">
+          <div class="row text-center padding">
+            <div class="col-12">
+              <h2>CONNECT</h2>
+              <hr>
+            </div>
+           <div class="col-12 social padding">
+             <div class="row">
+             <div class="col-3">
+                <a href="https://www.facebook.com/Juventus/"><i class="fab fa-facebook" style="font-size:60px "></i></a>
+             </div>
+             <div class="col-3">
+                <a href="https://twitter.com/juventusfc"><i class="fab fa-twitter" style="font-size:60px "></i></a>
+             </div>
+             <div class="col-3">
+                <a href="https://www.instagram.com/juventus/?hl=en"><i class="fab fa-instagram" style="font-size:60px "></i></a>
+             </div>
+             <div class="col-3">
+                <a href="https://www.youtube.com/user/juventus"><i class="fab fa-youtube" style="font-size:60px "></i></a>
+             </div>
+            </div>
+           </div>
+          </div>
+        </div>
+          <br>     
+          <div class="jumbotron padding text-center">
+            <h1>
+              <b>#FINOALLAFINE<b>
+            </h1>
+          </div> 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+
